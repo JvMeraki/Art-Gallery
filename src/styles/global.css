@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+    --brown: #493628;
+    --coffee: #AB886D;
+    --skin: #D6C0B3;
+    --grey: #E4E0E1;
+    --gold: #FFD39F;
+    --highlight: #FFE7C2;
+}
+
+html, body {
+  overflow-x: hidden;
+}

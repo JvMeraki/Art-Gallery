@@ -1,0 +1,182 @@
+[
+    {
+        "id": "1",
+        "image": "/public/img/draws/1.webp",
+        "technique": "Graphite Pencils",
+        "materials": "STAEDTLER Mars Lumograph 100 (Pencils), STAEDTLER Mars Lumograph Black 100B (Pencils), STRATHMORE Bristol 300 Series (Paper), TOMBOW Mono Zero (Eraser), SAKURA Gelly Roll (Pen)",
+        "created_at": "April 15, 2022",
+        "year": "2022",
+        "url": "https://www.instagram.com/p/CcYnP6_Jzug/"
+    },
+    {
+        "id": "2",
+        "image": "/public/img/draws/2.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), FABER-CASTELL Polychromos (Colored Pencils), CARAN D'ACHE Luminance 6901 (Colored Pencils), STRATHMORE Toned Tan 400 Series (Paper), SAKURA Gelly Roll (Pen)",
+        "created_at": "August 29, 2024",
+        "year": "2024",
+        "url": "https://www.instagram.com/p/C_QnxvbJVPN/"
+    },
+    {
+        "id": "3",
+        "image": "/public/img/draws/3.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), CARAN D'ACHE Pablo (Colored Pencils), STRATHMORE Bristol 300 Series (Paper), SAKURA Gelly Roll (Pen)",
+        "created_at": "September 18, 2021",
+        "year": "2021",
+        "url": "https://www.instagram.com/p/CT-kdDjJpYA/"
+    },
+    {
+        "id": "4",
+        "image": "/public/img/draws/4.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), FABER-CASTELL Polychromos (Colored Pencils), CARAN D'ACHE Pablo (Colored Pencils), STRATHMORE Toned Tan 400 Series (Paper), SAKURA Gelly Roll (Pen)",
+        "created_at": "May 12, 2021",
+        "year": "2021",
+        "url": "https://www.instagram.com/p/COyJZvRpsXT/"
+    },
+    {
+        "id": "5",
+        "image": "/public/img/draws/5.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), CARAN D'ACHE Pablo (Colored Pencils), Opalina 200gr (Paper)",
+        "created_at": "October 23, 2021",
+        "year": "2021",
+        "url": "https://www.instagram.com/p/CVYZ-uOpNUm/"
+    },
+    {
+        "id": "6",
+        "image": "/public/img/draws/6.webp",
+        "technique": "Colored Pencils",
+        "materials": "CARAN D'ACHE Pablo (Colored Pencils), Black Paper",
+        "created_at": "July 21, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/CC69vdIpLvh/"
+    },
+    {
+        "id": "7",
+        "image": "/public/img/draws/7.webp",
+        "technique": "Pens",
+        "materials": "Bic (Pen), Opalina 200gr (Paper)",
+        "created_at": "May 12, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/CAF3hfIpddT/"
+    },
+    {
+        "id": "8",
+        "image": "/public/img/draws/8.webp",
+        "technique": "Graphite Pencils",
+        "materials": "STAEDTLER Mars Lumograph 100 (Pencils), Mechanical Pencil, Opalina 200gr (Paper), SAKURA Gelly Roll (Pen)",
+        "created_at": "June 22, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/CBv4OCLJjuq/"
+    },
+    {
+        "id": "9",
+        "image": "/public/img/draws/9.webp",
+        "technique": "Pens",
+        "materials": "Bic (Pen), Opalina 200gr (Paper)",
+        "created_at": "September 15, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/CFKtU-MJiU-/"
+    },
+    {
+        "id": "10",
+        "image": "/public/img/draws/10.webp",
+        "technique": "Graphite Pencils",
+        "materials": "Mechanical Pencil, Opalina 200gr (Paper)",
+        "created_at": "August 4, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/CDefLo9JFJ3/"
+    },
+    {
+        "id": "11",
+        "image": "/public/img/draws/11.webp",
+        "technique": "Colored Pencils",
+        "materials": "CARAN D'ACHE Pablo (Colored Pencils), Black Paper, SAKURA Gelly Roll (Pen)",
+        "created_at": "July 21, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/CC68u04pyxJ/"
+    },
+    {
+        "id": "12",
+        "image": "/public/img/draws/12.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), CARAN D'ACHE Pablo (Colored Pencils), STRATHMORE Bristol 300 Series (Paper), SAKURA Gelly Roll (Pen)",
+        "created_at": "July 9, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/CCbzNFTJUFu/"
+    },
+    {
+        "id": "13",
+        "image": "/public/img/draws/13.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), CARAN D'ACHE Pablo (Colored Pencils), Opalina 200gr (Paper), SAKURA Gelly Roll (Pen)",
+        "created_at": "May 21, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/CAdtdYvJKqC/"
+    },
+    {
+        "id": "14",
+        "image": "/public/img/draws/14.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), CARAN D'ACHE Pablo (Colored Pencils), Opalina 200gr (Paper), SAKURA Gelly Roll (Pen)",
+        "created_at": "March 30, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/B-X4a4MJk4R/"
+    },
+    {
+        "id": "15",
+        "image": "/public/img/draws/15.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), CARAN D'ACHE Pablo (Colored Pencils), Opalina 200gr (Paper), SAKURA Gelly Roll (Pen)",
+        "created_at": "March 30, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/B-XzSHUJ_hC/"
+    },
+    {
+        "id": "16",
+        "image": "/public/img/draws/16.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), CARAN D'ACHE Pablo (Colored Pencils), Opalina 200gr (Paper)",
+        "created_at": "March 30, 2020",
+        "year": "2020",
+        "url": "https://www.instagram.com/p/B-XzKqTphXE/"
+    },
+    {
+        "id": "17",
+        "image": "/public/img/draws/17.webp",
+        "technique": "Colored Pencils",
+        "materials": "PRISMACOLOR Premier (Colored Pencils), Opalina 200gr (Paper), SAKURA Gelly Roll (Pen)",
+        "created_at": "November 28, 2019",
+        "year": "2019",
+        "url": "https://www.instagram.com/p/B5b0ONoJtTP/"
+    },
+    {
+        "id": "18",
+        "image": "/public/img/draws/18.webp",
+        "technique": "Pens",
+        "materials": "Bic (Pen), Opalina 200gr (Paper)",
+        "created_at": "September 27, 2019",
+        "year": "2019",
+        "url": "https://www.instagram.com/p/B27u9WXJ1Ic/"
+    },
+    {
+        "id": "19",
+        "image": "/public/img/draws/19.webp",
+        "technique": "Graphite Pencils",
+        "materials": "STAEDTLER Mars Lumograph 100 (Pencils), Opalina 200gr (Paper)",
+        "created_at": "July 26, 2019",
+        "year": "2019",
+        "url": "https://www.instagram.com/p/B0Z49TJpSzy/"
+    },
+    {
+        "id": "20",
+        "image": "/public/img/draws/20.webp",
+        "technique": "Graphite Pencils",
+        "materials": "STAEDTLER Mars Lumograph 100 (Pencils), Opalina 200gr (Paper)",
+        "created_at": "December 14, 2018",
+        "year": "2018",
+        "url": "https://www.instagram.com/p/BrZQ1hbnsMD/"
+    }
+]

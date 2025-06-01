@@ -1,0 +1,57 @@
+---
+import draws from "../data/draws.json";
+---
+
+<h1 class="text-7xl font-bold mx-auto text-center text-[var(--brown)] pt-12">
+  Some of my draws
+</h1>
+<div
+  class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4 max-w-9/10 mx-auto p-12"
+>
+  {
+    draws.map((draw) => (
+      <div class="relative group break-inside-avoid overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+        <img
+          src={draw.image.replace("/public", "")}
+          alt={`Draw ${draw.id} in Technique: ${draw.technique}`}
+          class="w-full object-cover rounded-lg"
+          loading="lazy"
+        />
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between p-4 text-white rounded-lg">
+          <div>
+            <h3 class="text-xl font-semibold">{draw.technique}</h3>
+            <p class="text-sm mt-1">{draw.materials}</p>
+          </div>
+          <div class="flex justify-between items-center text-xs">
+            <span>{draw.created_at}</span>
+            <a
+              href={draw.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:opacity-80"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-instagram-icon lucide-instagram"
+              >
+                <>
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    ))
+  }
+</div>
