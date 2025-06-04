@@ -1,0 +1,66 @@
+[
+{
+    "size": "A4",
+    "technique": "Graphite Pencil",
+    "deliveryTime": "4-6 days",
+    "materials": ["Staedtler pencils", "Bristol 300 Series Paper"],
+    "price": "120.000 - 200.000 COP"
+  },
+  {
+    "size": "A4",
+    "technique": "Pen Drawing",
+    "deliveryTime": "4-6 days",
+    "materials": ["Bic pens", "Bristol 300 Series Paper"],
+    "price": "150.000 - 230.000 COP"
+  },
+  {
+    "size": "A4",
+    "technique": "Colored Pencil",
+    "deliveryTime": "6-8 days",
+    "materials": ["Prismacolor, Luminance, Polychromos colored pencils", "Toned Tan or Bristol 300 Series Paper"],
+    "price": "180.000 - 280.000 COP"
+  },
+  {
+    "size": "1/8",
+    "technique": "Graphite Pencil",
+    "deliveryTime": "6-8 days",
+    "materials": ["Staedtler pencils", "Opalina 200gr Paper"],
+    "price": "140.000 - 230.000 COP"
+  },
+  {
+    "size": "1/8",
+    "technique": "Pen Drawing",
+    "deliveryTime": "6-8 days",
+    "materials": ["Bic pens", "Opalina 200gr Paper"],
+    "price": "170.000 - 260.000 COP"
+  },
+  {
+    "size": "1/8",
+    "technique": "Colored Pencil",
+    "deliveryTime": "7-10 days",
+    "materials": ["Prismacolor, Luminance, Polychromos colored pencils", "Opalina 200gr Paper"],
+    "price": "200.000 - 320.000 COP"
+  },
+
+  {
+    "size": "A3",
+    "technique": "Graphite Pencil",
+    "deliveryTime": "7-10 days",
+    "materials": ["Staedtler pencils", "Bristol 300 Series Paper"],
+    "price": "180.000 - 300.000 COP"
+  },
+  {
+    "size": "A3",
+    "technique": "Pen Drawing",
+    "deliveryTime": "7-10 days",
+    "materials": ["Bic pens", "Bristol 300 Series Paper"],
+    "price": "200.000 - 340.000 COP"
+  },
+  {
+    "size": "A3",
+    "technique": "Colored Pencil",
+    "deliveryTime": "10-14 days",
+    "materials": ["Prismacolor, Luminance, Polychromos colored pencils", "Bristol 300 Series Paper"],
+    "price": "250.000 - 400.000 COP"
+  }
+]

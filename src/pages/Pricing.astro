@@ -1,0 +1,19 @@
+---
+import PriceSelector from "../components/PriceSelector.jsx";
+---
+
+<section class="bg-[var(--background)] text-white py-12 px-4">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-6xl font-bold mb-6 text-center text-[var(--brown)] py-6">
+      Pricing
+    </h2>
+    <p class="mb-4 font-light text-center text-[var(--brown)] sm:text-xl">
+      Please select the size to estimate the value of your drawing.
+    </p>
+    <p class="mb-4 font-light text-center text-[var(--brown)] sm:text-xl">
+      Please note that the value is approximate and depends on several factors
+      such as complexity, material, number of people, etc.
+    </p>
+    <PriceSelector client:load />
+  </div>
+</section>
