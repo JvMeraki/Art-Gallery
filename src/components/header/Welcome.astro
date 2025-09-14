@@ -1,0 +1,18 @@
+---
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<div class="relative max-w-9/10 mx-auto px-6 sm:px-8 md:px-10 py-10">
+  <h1 class="text-7xl font-bold mx-auto text-center text-[var(--brown)] p-12">
+    {t("welcome_title")}
+  </h1>
+  <p class="text-xl">
+    {t("welcome_text1")}
+  </p>
+  <p class="text-xl pt-4">
+    {t("welcome_text2")}
+  </p>
+</div>

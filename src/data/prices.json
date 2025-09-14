@@ -1,66 +1,393 @@
-[
 {
-    "size": "A4",
-    "technique": "Graphite Pencil",
-    "deliveryTime": "4-6 days",
-    "materials": ["Staedtler pencils", "Bristol 300 Series Paper"],
-    "price": "120.000 - 200.000 COP"
-  },
-  {
-    "size": "A4",
-    "technique": "Pen Drawing",
-    "deliveryTime": "4-6 days",
-    "materials": ["Bic pens", "Bristol 300 Series Paper"],
-    "price": "150.000 - 230.000 COP"
-  },
-  {
-    "size": "A4",
-    "technique": "Colored Pencil",
-    "deliveryTime": "6-8 days",
-    "materials": ["Prismacolor, Luminance, Polychromos colored pencils", "Toned Tan or Bristol 300 Series Paper"],
-    "price": "180.000 - 280.000 COP"
-  },
-  {
-    "size": "1/8",
-    "technique": "Graphite Pencil",
-    "deliveryTime": "6-8 days",
-    "materials": ["Staedtler pencils", "Opalina 200gr Paper"],
-    "price": "140.000 - 230.000 COP"
-  },
-  {
-    "size": "1/8",
-    "technique": "Pen Drawing",
-    "deliveryTime": "6-8 days",
-    "materials": ["Bic pens", "Opalina 200gr Paper"],
-    "price": "170.000 - 260.000 COP"
-  },
-  {
-    "size": "1/8",
-    "technique": "Colored Pencil",
-    "deliveryTime": "7-10 days",
-    "materials": ["Prismacolor, Luminance, Polychromos colored pencils", "Opalina 200gr Paper"],
-    "price": "200.000 - 320.000 COP"
-  },
-
-  {
-    "size": "A3",
-    "technique": "Graphite Pencil",
-    "deliveryTime": "7-10 days",
-    "materials": ["Staedtler pencils", "Bristol 300 Series Paper"],
-    "price": "180.000 - 300.000 COP"
-  },
-  {
-    "size": "A3",
-    "technique": "Pen Drawing",
-    "deliveryTime": "7-10 days",
-    "materials": ["Bic pens", "Bristol 300 Series Paper"],
-    "price": "200.000 - 340.000 COP"
-  },
-  {
-    "size": "A3",
-    "technique": "Colored Pencil",
-    "deliveryTime": "10-14 days",
-    "materials": ["Prismacolor, Luminance, Polychromos colored pencils", "Bristol 300 Series Paper"],
-    "price": "250.000 - 400.000 COP"
-  }
-]
+  "en": [
+    {
+      "size": "A4",
+      "technique": "Graphite Pencil",
+      "deliveryTime": "4-6 days",
+      "materials": ["Staedtler pencils", "Bristol 300 Series Paper"],
+      "price": "31 - 51 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Pen Drawing",
+      "deliveryTime": "4-6 days",
+      "materials": ["Bic pens", "Bristol 300 Series Paper"],
+      "price": "39 - 60 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Colored Pencil",
+      "deliveryTime": "6-8 days",
+      "materials": ["Prismacolor, Luminance, Polychromos colored pencils", "Toned Tan or Bristol 300 Series Paper"],
+      "price": "47 - 72 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Graphite Pencil",
+      "deliveryTime": "6-8 days",
+      "materials": ["Staedtler pencils", "Opalina 200gr Paper"],
+      "price": "36 - 60 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Pen Drawing",
+      "deliveryTime": "6-8 days",
+      "materials": ["Bic pens", "Opalina 200gr Paper"],
+      "price": "44 - 67 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Colored Pencil",
+      "deliveryTime": "7-10 days",
+      "materials": ["Prismacolor, Luminance, Polychromos colored pencils", "Opalina 200gr Paper"],
+      "price": "52 - 82 USD"
+    },
+  
+    {
+      "size": "A3",
+      "technique": "Graphite Pencil",
+      "deliveryTime": "7-10 days",
+      "materials": ["Staedtler pencils", "Bristol 300 Series Paper"],
+      "price": "46 - 77 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Pen Drawing",
+      "deliveryTime": "7-10 days",
+      "materials": ["Bic pens", "Bristol 300 Series Paper"],
+      "price": "52 - 88 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Colored Pencil",
+      "deliveryTime": "10-14 days",
+      "materials": ["Prismacolor, Luminance, Polychromos colored pencils", "Bristol 300 Series Paper"],
+      "price": "65 - 103 USD"
+    }
+  ],
+  "es": [
+    {
+      "size": "A4",
+      "technique": "Lápiz grafito",
+      "deliveryTime": "4-6 días",
+      "materials": ["Lápices Staedtler", "Papel Bristol Serie 300"],
+      "price": "31 - 51 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Dibujo a tinta",
+      "deliveryTime": "4-6 días",
+      "materials": ["Plumas Bic", "Papel Bristol Serie 300"],
+      "price": "39 - 60 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Lápiz de color",
+      "deliveryTime": "6-8 días",
+      "materials": ["Lápices Prismacolor, Luminance, Polychromos", "Papel Tonalidad Tan o Bristol Serie 300"],
+      "price": "47 - 72 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Lápiz grafito",
+      "deliveryTime": "6-8 días",
+      "materials": ["Lápices Staedtler", "Papel Opalina 200gr"],
+      "price": "36 - 60 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Dibujo a tinta",
+      "deliveryTime": "6-8 días",
+      "materials": ["Plumas Bic", "Papel Opalina 200gr"],
+      "price": "44 - 67 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Lápiz de color",
+      "deliveryTime": "7-10 días",
+      "materials": ["Lápices Prismacolor, Luminance, Polychromos", "Papel Opalina 200gr"],
+      "price": "52 - 82 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Lápiz grafito",
+      "deliveryTime": "7-10 días",
+      "materials": ["Lápices Staedtler", "Papel Bristol Serie 300"],
+      "price": "46 - 77 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Dibujo a tinta",
+      "deliveryTime": "7-10 días",
+      "materials": ["Plumas Bic", "Papel Bristol Serie 300"],
+      "price": "52 - 88 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Lápiz de color",
+      "deliveryTime": "10-14 días",
+      "materials": ["Lápices Prismacolor, Luminance, Polychromos", "Papel Bristol Serie 300"],
+      "price": "65 - 103 USD"
+    }
+  ],
+  "fr": [
+    {
+      "size": "A4",
+      "technique": "Crayon graphite",
+      "deliveryTime": "4-6 jours",
+      "materials": ["Crayons Staedtler", "Papier Bristol série 300"],
+      "price": "31 - 51 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Dessin à l'encre",
+      "deliveryTime": "4-6 jours",
+      "materials": ["Stylos Bic", "Papier Bristol série 300"],
+      "price": "39 - 60 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Crayon de couleur",
+      "deliveryTime": "6-8 jours",
+      "materials": ["Crayons Prismacolor, Luminance, Polychromos", "Papier teinté Tan ou Bristol série 300"],
+      "price": "47 - 72 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Crayon graphite",
+      "deliveryTime": "6-8 jours",
+      "materials": ["Crayons Staedtler", "Papier Opaline 200gr"],
+      "price": "36 - 60 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Dessin à l'encre",
+      "deliveryTime": "6-8 jours",
+      "materials": ["Stylos Bic", "Papier Opaline 200gr"],
+      "price": "44 - 67 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Crayon de couleur",
+      "deliveryTime": "7-10 jours",
+      "materials": ["Crayons Prismacolor, Luminance, Polychromos", "Papier Opaline 200gr"],
+      "price": "52 - 82 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Crayon graphite",
+      "deliveryTime": "7-10 jours",
+      "materials": ["Crayons Staedtler", "Papier Bristol série 300"],
+      "price": "46 - 77 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Dessin à l'encre",
+      "deliveryTime": "7-10 jours",
+      "materials": ["Stylos Bic", "Papier Bristol série 300"],
+      "price": "52 - 88 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Crayon de couleur",
+      "deliveryTime": "10-14 jours",
+      "materials": ["Crayons Prismacolor, Luminance, Polychromos", "Papier Bristol série 300"],
+      "price": "65 - 103 USD"
+    }
+  ],
+  "it": [
+    {
+      "size": "A4",
+      "technique": "Matita grafite",
+      "deliveryTime": "4-6 giorni",
+      "materials": ["Matite Staedtler", "Carta Bristol Serie 300"],
+      "price": "31 - 51 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Disegno a penna",
+      "deliveryTime": "4-6 giorni",
+      "materials": ["Penne Bic", "Carta Bristol Serie 300"],
+      "price": "39 - 60 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Matita colorata",
+      "deliveryTime": "6-8 giorni",
+      "materials": ["Matite Prismacolor, Luminance, Polychromos", "Carta Tonalità Tan o Bristol Serie 300"],
+      "price": "47 - 72 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Matita grafite",
+      "deliveryTime": "6-8 giorni",
+      "materials": ["Matite Staedtler", "Carta Opalina 200gr"],
+      "price": "36 - 60 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Disegno a penna",
+      "deliveryTime": "6-8 giorni",
+      "materials": ["Penne Bic", "Carta Opalina 200gr"],
+      "price": "44 - 67 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Matita colorata",
+      "deliveryTime": "7-10 giorni",
+      "materials": ["Matite Prismacolor, Luminance, Polychromos", "Carta Opalina 200gr"],
+      "price": "52 - 82 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Matita grafite",
+      "deliveryTime": "7-10 giorni",
+      "materials": ["Matite Staedtler", "Carta Bristol Serie 300"],
+      "price": "46 - 77 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Disegno a penna",
+      "deliveryTime": "7-10 giorni",
+      "materials": ["Penne Bic", "Carta Bristol Serie 300"],
+      "price": "52 - 88 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Matita colorata",
+      "deliveryTime": "10-14 giorni",
+      "materials": ["Matite Prismacolor, Luminance, Polychromos", "Carta Bristol Serie 300"],
+      "price": "65 - 103 USD"
+    }
+  ],
+  "pt": [
+    {
+      "size": "A4",
+      "technique": "Lápis grafite",
+      "deliveryTime": "4-6 dias",
+      "materials": ["Lápis Staedtler", "Papel Bristol Série 300"],
+      "price": "31 - 51 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Desenho a caneta",
+      "deliveryTime": "4-6 dias",
+      "materials": ["Canetas Bic", "Papel Bristol Série 300"],
+      "price": "39 - 60 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "Lápis de cor",
+      "deliveryTime": "6-8 dias",
+      "materials": ["Lápis Prismacolor, Luminance, Polychromos", "Papel Tonalidade Tan ou Bristol Série 300"],
+      "price": "47 - 72 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Lápis grafite",
+      "deliveryTime": "6-8 dias",
+      "materials": ["Lápis Staedtler", "Papel Opalina 200gr"],
+      "price": "36 - 60 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Desenho a caneta",
+      "deliveryTime": "6-8 dias",
+      "materials": ["Canetas Bic", "Papel Opalina 200gr"],
+      "price": "44 - 67 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "Lápis de cor",
+      "deliveryTime": "7-10 dias",
+      "materials": ["Lápis Prismacolor, Luminance, Polychromos", "Papel Opalina 200gr"],
+      "price": "52 - 82 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Lápis grafite",
+      "deliveryTime": "7-10 dias",
+      "materials": ["Lápis Staedtler", "Papel Bristol Série 300"],
+      "price": "46 - 77 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Desenho a caneta",
+      "deliveryTime": "7-10 dias",
+      "materials": ["Canetas Bic", "Papel Bristol Série 300"],
+      "price": "52 - 88 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "Lápis de cor",
+      "deliveryTime": "10-14 dias",
+      "materials": ["Lápis Prismacolor, Luminance, Polychromos", "Papel Bristol Série 300"],
+      "price": "65 - 103 USD"
+    }
+  ],
+  "kr": [
+    {
+      "size": "A4",
+      "technique": "흑연 연필",
+      "deliveryTime": "4-6일",
+      "materials": ["Staedtler 연필", "브리스톨 300 시리즈 종이"],
+      "price": "31 - 51 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "펜 드로잉",
+      "deliveryTime": "4-6일",
+      "materials": ["Bic 펜", "브리스톨 300 시리즈 종이"],
+      "price": "39 - 60 USD"
+    },
+    {
+      "size": "A4",
+      "technique": "색연필",
+      "deliveryTime": "6-8일",
+      "materials": ["프리즘컬러, 루미넌스, 폴리크로모스 색연필", "톤드 탄 또는 브리스톨 300 시리즈 종이"],
+      "price": "47 - 72 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "흑연 연필",
+      "deliveryTime": "6-8일",
+      "materials": ["Staedtler 연필", "오팔리나 200g 종이"],
+      "price": "36 - 60 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "펜 드로잉",
+      "deliveryTime": "6-8일",
+      "materials": ["Bic 펜", "오팔리나 200g 종이"],
+      "price": "44 - 67 USD"
+    },
+    {
+      "size": "1/8",
+      "technique": "색연필",
+      "deliveryTime": "7-10일",
+      "materials": ["프리즘컬러, 루미넌스, 폴리크로모스 색연필", "오팔리나 200g 종이"],
+      "price": "52 - 82 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "흑연 연필",
+      "deliveryTime": "7-10일",
+      "materials": ["Staedtler 연필", "브리스톨 300 시리즈 종이"],
+      "price": "46 - 77 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "펜 드로잉",
+      "deliveryTime": "7-10일",
+      "materials": ["Bic 펜", "브리스톨 300 시리즈 종이"],
+      "price": "52 - 88 USD"
+    },
+    {
+      "size": "A3",
+      "technique": "색연필",
+      "deliveryTime": "10-14일",
+      "materials": ["프리즘컬러, 루미넌스, 폴리크로모스 색연필", "브리스톨 300 시리즈 종이"],
+      "price": "65 - 103 USD"
+    }
+  ]
+}

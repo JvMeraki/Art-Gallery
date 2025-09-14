@@ -1,0 +1,33 @@
+---
+import Contact from "@/components/Contact.astro";
+import Footer from "@/components/Footer.astro";
+import MasonryGallery from "@/components/gallery/MasonryGallery.astro";
+import Header from "@/components/header/Header.astro";
+import Navbar from "@/components/header/Navbar.astro";
+import Welcome from "@/components/header/Welcome.astro";
+import Pricing from "@/components/pricing/Pricing.astro";
+import Layout from "@/layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: "es" } },
+    { params: { lang: "en" } },
+    { params: { lang: "fr" } },
+    { params: { lang: "it" } },
+    { params: { lang: "pt" } },
+    { params: { lang: "kr" } },
+  ];
+}
+
+const { lang } = Astro.params;
+---
+
+<Layout title=`JV's Art Gallery - ${lang}`>
+  <Navbar />
+  <Header />
+  <Welcome />
+  <MasonryGallery />
+  <Pricing />
+  <Contact />
+  <Footer />
+</Layout>

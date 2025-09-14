@@ -1,7 +1,9 @@
+import pricesData from "@/data/prices.json";
+import { useTranslations } from "@/i18n/utils";
 import { useState } from "react";
-import prices from "../data/prices.json";
 
-const PriceSelector = () => {
+const PriceSelector = ({ lang }) => {
+  const prices = pricesData[lang];
   const grouped = prices.reduce((acc, item) => {
     if (!acc[item.size]) acc[item.size] = [];
     acc[item.size].push(item);
@@ -10,6 +12,8 @@ const PriceSelector = () => {
 
   const sizes = Object.keys(grouped);
   const [selectedSize, setSelectedSize] = useState("1/8");
+  const t = useTranslations(lang);
+  console.log('Lang en React: ',lang);
 
   return (
     <div>
@@ -37,9 +41,9 @@ const PriceSelector = () => {
           >
             <div>
               <h4 className="text-xl font-bold text-[#FFD39F] mb-2">{item.technique}</h4>
-              <p className="text-[#E4E0E1] mb-4">Delivered in {item.deliveryTime}.</p>
+              <p className="text-[#E4E0E1] mb-4">{t('pricing_delivered')} {item.deliveryTime}.</p>
               <p className="text-[#E4E0E1] mb-4">
-                Materials: {item.materials.join(" + ")}.
+                {t('pricing_materials')} {item.materials.join(" + ")}.
               </p>
             </div>
 
@@ -51,12 +55,15 @@ const PriceSelector = () => {
                 href="#contact"
                 className="inline-block bg-[#AB886D] text-white px-4 py-2 rounded hover:bg-[#8c6b54]"
               >
-                Request Commission
+                {t('pricing_request')}
               </a>
             </div>
           </div>
         ))}
       </div>
+      <p class="mb-4 mt-8 font-light text-center text-[var(--brown)] sm:text-xl">
+        {t("pricing_dollars")}
+      </p>
     </div>
   );
 };

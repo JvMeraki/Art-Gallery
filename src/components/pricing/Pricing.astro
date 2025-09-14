@@ -1,0 +1,22 @@
+---
+import PriceSelector from "@/components/pricing/PriceSelector.jsx";
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section id="pricing" class="bg-[var(--background)] text-white py-12 px-4">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-6xl font-bold mb-6 text-center text-[var(--brown)] py-6">
+      {t("pricing_title")}
+    </h2>
+    <p class="mb-4 font-light text-center text-[var(--brown)] sm:text-xl">
+      {t("pricing_text1")}
+    </p>
+    <p class="mb-4 font-light text-center text-[var(--brown)] sm:text-xl">
+      {t("pricing_text2")}
+    </p>
+    <PriceSelector client:visible lang={lang} />
+  </div>
+</section>

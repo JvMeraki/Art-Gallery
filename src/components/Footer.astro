@@ -1,5 +1,8 @@
 ---
-import "../styles/global.css";
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <body class="flex flex-col min-h-screen overflow-x-hidden">
@@ -10,15 +13,15 @@ import "../styles/global.css";
       <h1
         class="font-extrabold leading-[1.25] tracking-tight text-[var(--grey)] text-4xl md:text-6xl lg:text-7xl text-center"
       >
-        <span class="inline md:block">Thanks for view</span>
+        <span class="inline md:block">{t("footer_title_thanks")}</span>
         <span
           class="inline-block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-[var(--coffee)] via-[var(--gold)] to-[var(--highlight)]"
         >
-          Don't forget
+          {t("footer_title_reminder")}
           <span
             class="bg-clip-text text-transparent bg-gradient-to-r from-[var(--highlight)] via-[var(--gold)] to-[var(--coffee)]"
           >
-            to follow me on
+            {t("footer_title_complement")}
           </span>
         </span>
       </h1>

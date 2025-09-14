@@ -1,30 +1,34 @@
+---
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
 <section id="contact" class="bg-[var(--background)]">
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
     <h2 class="text-6xl font-bold mb-6 text-center text-[var(--brown)] py-6">
-      Contact Me
+      {t("contact_title")}
     </h2>
     <p class="mb-4 font-light text-left text-[var(--brown)] sm:text-xl">
-      If you're interested in commissioning a drawing, feel free to get in
-      touch. Please include the following details in your request:
+      {t("contact_text")}
     </p>
     <ul
       class="mb-4 lg:mb-8 list-disc list-inside font-light text-left text-[var(--brown)] sm:text-xl space-y-1"
     >
-      <li>Preferred technique (pencil, ink, or color)</li>
-      <li>Desired paper size (A4, 1/8, A3, etc.)</li>
-      <li>Number of people or subjects in the image</li>
-      <li>
-        Any additional information or specific instructions you consider
-        important
-      </li>
+      <li>{t("contact_technique")}</li>
+      <li>{t("contact_paper")}</li>
+      <li>{t("contact_people")}</li>
+      <li>{t("contact_additional")}</li>
     </ul>
-    <form action="#" class="space-y-8">
+    <form action="#" class="space-y-8" id="contact">
       <div>
         <label
           for="email"
           class="block mb-2 text-sm font-semibold text-[var(--brown)]"
-          >Your email</label
         >
+          {t("contact_mail")}
+        </label>
         <input
           type="email"
           id="email"
@@ -36,13 +40,15 @@
       <div>
         <label
           for="subject"
-          class="block mb-2 text-sm font-semiboldvar(--brown)]">Subject</label
+          class="block mb-2 text-sm font-semiboldvar(--brown)]"
         >
+          {t("contact_subject")}
+        </label>
         <input
           type="text"
           id="subject"
           class="block p-3 w-full text-sm text-[var(--highlight)] bg-[var(--coffee)] rounded-lg border border-[var(--gold)] placeholder-[var(--skin)] shadow-sm focus:ring-[var(--brown)] focus:border-[var(--brown)]"
-          placeholder="Let us know how we can help you"
+          placeholder={t("contact_subject_sample")}
           required
         />
       </div>
@@ -50,19 +56,21 @@
         <label
           for="message"
           class="block mb-2 text-sm font-semibold text-[var(--brown)]"
-          >Your message</label
         >
+          {t("contact_message")}
+        </label>
         <textarea
           id="message"
           rows="6"
           class="block p-2.5 w-full text-sm text-[var(--highlight)] bg-[var(--coffee)] rounded-lg shadow-sm border border-[var(--gold)] focus:ring-[var(--brown)] focus:border-[var(--brown)] placeholder-[var(--skin)]"
-          placeholder="Leave a comment..."></textarea>
+          placeholder={t("contact_message_sample")}></textarea>
       </div>
       <button
         type="submit"
         class="py-3 px-5 text-sm font-medium text-center text-[var(--gold)] rounded-lg bg-[var(--brown)] sm:w-fit hover:bg-[var(--coffee)] hover:text-[var(--highlight)] focus:ring-4 focus:outline-none focus:ring-[var(--highlight)] cursor-pointer transition duration-200 ease-in-out"
-        >Send message</button
       >
+        {t("contact_button")}
+      </button>
     </form>
   </div>
 </section>
