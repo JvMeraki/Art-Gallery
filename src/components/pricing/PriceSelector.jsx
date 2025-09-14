@@ -13,7 +13,6 @@ const PriceSelector = ({ lang }) => {
   const sizes = Object.keys(grouped);
   const [selectedSize, setSelectedSize] = useState("1/8");
   const t = useTranslations(lang);
-  console.log('Lang en React: ',lang);
 
   return (
     <div>
