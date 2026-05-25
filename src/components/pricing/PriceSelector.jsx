@@ -16,16 +16,15 @@ const PriceSelector = ({ lang }) => {
 
   return (
     <div>
-      <div className="flex justify-center space-x-4 mb-10 text-[var(--gold)]">
+      <div className="flex justify-center space-x-4 mb-10 text-(--gold)">
         {sizes.map((size) => (
           <button
             key={size}
             onClick={() => setSelectedSize(size)}
-            className={`px-6 py-3 rounded-lg bg-[var(--brown)] hover:bg-[var(--coffee)] ${
-              selectedSize === size
-                ? "text-[var(--gold)] ring-4 ring-[#FFD39F]"
-                : "text-white"
-            }`}
+            className={`px-6 py-3 rounded-lg bg-(--brown) hover:bg-(--coffee) ${selectedSize === size
+              ? "text-(--gold) ring-4 ring-(--gold)"
+              : "text-white"
+              }`}
           >
             {size}
           </button>
@@ -36,23 +35,23 @@ const PriceSelector = ({ lang }) => {
         {grouped[selectedSize].map((item, index) => (
           <div
             key={index}
-            className="bg-[var(--brown)] rounded-xl p-6 shadow-md hover:shadow-lg transition duration-300 flex flex-col justify-between h-full"
+            className="bg-(--brown) rounded-xl p-6 shadow-md hover:shadow-lg transition duration-300 flex flex-col justify-between h-full"
           >
             <div>
-              <h4 className="text-xl font-bold text-[#FFD39F] mb-2">{item.technique}</h4>
-              <p className="text-[#E4E0E1] mb-4">{t('pricing_delivered')} {item.deliveryTime}.</p>
-              <p className="text-[#E4E0E1] mb-4">
+              <h4 className="text-xl font-bold text-(--gold) mb-2">{item.technique}</h4>
+              <p className="text-(--skin) mb-4">{t('pricing_delivered')} {item.deliveryTime}.</p>
+              <p className="text-(--skin) mb-4">
                 {t('pricing_materials')} {item.materials.join(" + ")}.
               </p>
             </div>
 
             <div className="mt-auto pt-4">
-              <div className="text-2xl font-semibold text-[#FFE7C2] mb-4">
+              <div className="text-2xl font-semibold text-(--highlight) mb-4">
                 ${item.price}
               </div>
               <a
                 href="#contact"
-                className="inline-block bg-[#AB886D] text-white px-4 py-2 rounded hover:bg-[#8c6b54]"
+                className="inline-block bg-(--coffee) text-white px-4 py-2 rounded hover:bg-(--coffee)"
               >
                 {t('pricing_request')}
               </a>
@@ -60,7 +59,7 @@ const PriceSelector = ({ lang }) => {
           </div>
         ))}
       </div>
-      <p class="mb-4 mt-8 font-light text-center text-[var(--brown)] sm:text-xl">
+      <p className="mb-4 mt-8 font-light text-center text-(--brown) sm:text-xl">
         {t("pricing_dollars")}
       </p>
     </div>

@@ -3,6 +3,33 @@ import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+
+// Generar rutas SVG deterministas para el efecto de papel rasgado
+const generateTornPath = (baselineY: number, seedOffset: number) => {
+  const width = 1440;
+  const steps = 150;
+  const dx = width / steps;
+  const points = [];
+
+  for (let i = 0; i <= steps; i++) {
+    const x = i * dx;
+    const t = i / steps;
+
+    // Simulación de ruido fractal usando múltiples frecuencias de senos y cosenos
+    const wave1 = Math.sin(t * 12 + seedOffset) * 10;
+    const wave2 = Math.sin(t * 35 + seedOffset * 1.7) * 4;
+    const wave3 = Math.cos(t * 97 + seedOffset * 3.1) * 2;
+    const wave4 = Math.sin(t * 193 + seedOffset * 5.3) * 0.8;
+
+    const y = baselineY + wave1 + wave2 + wave3 + wave4;
+    points.push(`${x.toFixed(1)},${y.toFixed(1)}`);
+  }
+  return `M0,200 ` + points.map((p) => `L${p}`).join(" ") + ` L1440,200 Z`;
+};
+
+// Generamos la capa trasera (el papel rasgado interior/blanco que sobresale) y la delantera (el color de fondo)
+const backPath = generateTornPath(38, 2.5);
+const frontPath = generateTornPath(42, 5.8);
 ---
 
 <div class="h-auto bg-gray-50 flex items-center">
@@ -13,17 +40,55 @@ const t = useTranslations(lang);
   >
     <div
       class="absolute inset-0 bg-[url('/img/draws/2.webp')] bg-cover bg-center filter blur-sm opacity-50"
+      style="mask-image: linear-gradient(to bottom, black 60%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);"
     >
     </div>
     <div
-      class="relative max-w-3xl mx-auto bg-[var(--grey)]/20 backdrop-blur-md rounded-2xl px-6 sm:px-8 md:px-10 py-10"
+      class="relative max-w-3xl mx-auto bg-(--grey)/20 backdrop-blur-md rounded-2xl px-6 sm:px-8 md:px-10 py-10"
     >
-      <div class="container mx-auto text-center text-[var(--brown)]">
+      <div class="container mx-auto text-center text-(--brown)">
         <h1 class="text-6xl font-bold mb-6">{t("header_title")}</h1>
         <p class="text-2xl font-semibold mb-12">
           {t("header_text")}
         </p>
       </div>
+    </div>
+
+    <!-- Efecto de papel rasgado (Torn Paper Effect) -->
+    <div
+      class="absolute bottom-0 left-0 w-full overflow-visible pointer-events-none z-10 select-none translate-y-px"
+    >
+      <svg
+        class="w-full h-12 sm:h-16 md:h-20"
+        viewBox="0 0 1440 100"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <!-- Filtro de sombra suave para dar relieve de papel físico superpuesto -->
+          <filter
+            id="torn-paper-shadow"
+            x="-5%"
+            y="-30%"
+            width="110%"
+            height="160%"
+          >
+            <feDropShadow
+              dx="0"
+              dy="-3"
+              stdDeviation="3"
+              flood-color="#493628"
+              flood-opacity="0.22"></feDropShadow>
+          </filter>
+        </defs>
+
+        <!-- Capa trasera: simula el borde blanco deshilachado del papel roto -->
+        <path d={backPath} fill="#fbfaf8" opacity="0.8"></path>
+
+        <!-- Capa delantera: se fusiona con el fondo de la siguiente sección (var(--skin)) -->
+        <path d={frontPath} fill="var(--skin)" filter="url(#torn-paper-shadow)"
+        ></path>
+      </svg>
     </div>
   </section>
 </div>
