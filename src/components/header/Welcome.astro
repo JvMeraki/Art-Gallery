@@ -3,14 +3,27 @@ import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+
+// Calcular la edad de manera exacta basándose en el día y mes de nacimiento
+const birthDate = new Date(import.meta.env.PUBLIC_BIRTH_DATE);
+const today = new Date();
+let age = today.getFullYear() - birthDate.getFullYear();
+const monthDiff = today.getMonth() - birthDate.getMonth();
+
+if (
+  monthDiff < 0 ||
+  (monthDiff === 0 && today.getDate() < birthDate.getDate())
+) {
+  age--;
+}
 ---
 
 <div class="relative max-w-9/10 mx-auto px-6 sm:px-8 md:px-10 py-10">
-  <h1 class="text-7xl font-bold mx-auto text-center text-[var(--brown)] p-12">
+  <h1 class="text-7xl font-bold mx-auto text-center text-(--brown) p-12">
     {t("welcome_title")}
   </h1>
   <p class="text-xl">
-    {t("welcome_text1")}
+    {t("welcome_text1", { age })}
   </p>
   <p class="text-xl pt-4">
     {t("welcome_text2")}
